@@ -1,0 +1,79 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&family=Unica+One&display=swap" rel="stylesheet">
+<body>
+  <div id="card">
+<div id="frontcard">
+  
+  <img src="./card-logo.svg" alt="" width="150px">
+  <p id="p1">  0000 0000 0000 0000</p>
+  <p  id="p2">  Jane Appleseed </p>
+  <p  id="p3">  00/00</p>
+</div>
+<div id="backcard">
+  <p id="p4">000</p>
+</div>
+</div>
+
+
+<div id="appform">
+  <form  class="appf" name="mainform" id="mainform/">
+     <label >Cardholder Name </label>
+     <input type="text" placeholder="Enter your name " id="namefaild" >
+     <div id="errorname" class="rb"></div>
+     <label> Card Number</label>
+     <input type="text" placeholder="e.g. 1234 5678 9123 0000" id="srialnumfaild">
+     <div id="errornumber" class="rb"></div>
+
+<label >  Exp. Date (MM/YY)   CVC </label>
+   <div id="Expdate">
+  
+<input type="text" placeholder="MM" id="mounth">
+<input type="text" placeholder="YY" id="year">
+<input type="text" placeholder="e.g. 123" id="cvc">
+<div id="errordete" class="rb"></div>
+<div id="Expierdate" class="rb"></div>
+
+  </div> 
+
+  <button id="mybut" type="button">Confirm</button>
+
+</form>
+  
+ </div>
+<div id="comfer"  class="active">
+  <img src="./icon-complete.svg" alt="" srcset="">
+  <p id="th">Thank you!</p>
+  <P id="con">We've added your card details</P>
+  <button>Continue</button>
+</div>
+
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Mohamed Yossry</a>.
+  </footer>
+
+    <script src="js.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+
+.unica-one-regular {
+  font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+body{
+    background-image: url(./bg-main-desktop.png);
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "card" "form" 
+    "footer" "footer";
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+body img{
+    width: 50px;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 5px;
+}
+
+#frontcard{
+    
+    background-repeat: no-repeat;
+  height: 250px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  margin-top: 120px;
+  background-image: url("./bg-card-front.png");
+  background-size: cover;        /* makes image cover the div */
+  background-position: center;   /* center the image */
+   width: 320px;
+  height: 180px;
+  border-radius: 15px;
+        font-family: "Space Grotesk", sans-serif;
+        font-size:25px;
+        text-transform: uppercase;
+
+}
+
+
+
+#p1{
+    position: relative;
+    top: 40px;;
+    left: 20px;
+    color:hsl(0, 100%, 100%);
+    font-size: 18px;
+}
+#p2{
+    position: relative;
+    top: 45px;
+    left: 20px;
+    font-size:10px;
+    color:hsl(0, 100%, 100%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#p3{
+  color: bisque;
+  position: absolute;
+  left: 410px;
+  top: 260px;
+    font-size:10px;
+
+}
+
+#frontcard img{
+    width: 25%;
+    position: relative;
+    top:15px;
+    left: 10px;
+}
+#backcard{
+ width: 320px;
+  height: 180px;
+  background-image: url("./bg-card-back.png");
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;
+    position: relative;
+    margin-left: 200px;
+    border-radius: 15px;
+}
+
+
+#backcard p{
+   position: relative;
+   top:65px;
+     left: 250px;
+     color: hsl(270, 3%, 87%);
+
+}
+
+
+form{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 15px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    right: 300px;
+    width: 250px;
+    align-items:start;
+    font-family: "Space Grotesk", sans-serif;
+
+
+    
+}
+  form input{
+       top:30px;
+       margin-bottom: 7px;
+       border: 1px solid;
+       border-radius: 5px;
+       width: 350px;
+       height: 40px;
+
+  }
+.rb{
+   color: red;
+   font-size: 10px;
+   top: 50px;
+   display: block;
+
+}
+#mounth{
+
+    width: 50px;
+    
+}
+#year{
+
+    width: 80px;
+
+}
+
+#cvc{
+ top:319px;
+ left: 155px;
+ width: 200px;
+}
+
+
+#Expdate{
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     
+}
+
+#mybut{
+    background-color: hsl(278, 94%, 30%) ;
+    color: white;
+    width: 350px;
+    height: 45px;
+    border-radius: 5px;
+    position: relative;
+    left: 5px;
+    top: 20px;
+}
+
+#comfer{
+    position: relative;
+    top: 170px;
+    left:  40px;
+    font-size: larger;
+
+}
+
+#comfer img{
+        position: relative;
+        left: 90px;
+        bottom: 10px;
+
+}
+
+#comfer button{
+     height: 45px;
+    border-radius: 5px;
+    position: relative;
+    left:50px;
+     top: 60px;
+    background-color: hsl(278, 94%, 30%) ;
+    width: 100px;
+    color:aliceblue;
+    width: 156px;
+    font-weight: 15px;
+}
+#th{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     position: relative;
+     left: 60px;
+     text-transform: uppercase;
+
+}
+#con{
+         font-family:Verdana, Geneva, Tahoma, sans-serif;
+         color: darkgray;
+
+}
+.active{
+    display: none;
+}
+
+footer{
+position: relative;
+top: 10px;
+left: 320px;
+justify-self: center;
+ font-size: 15px;
+ color: blue;
+}
+
